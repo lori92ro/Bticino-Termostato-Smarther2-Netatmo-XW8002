@@ -1,0 +1,4 @@
+.env
+netatmo_tokens.json
+node_modules
+package-lock.json

@@ -1,0 +1,25 @@
+{
+  "name": "netatmo-thermostat-service",
+  "version": "1.0.0",
+  "description": "Servizio per recuperare lo stato dei termostati Netatmo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "jest": "^28.1.0"
+  },
+  "keywords": [
+    "netatmo",
+    "termostati",
+    "smart home"
+  ],
+  "author": "Tuo Nome",
+  "license": "ISC"
+}
